@@ -1,4 +1,4 @@
-# Birdclef2023- vitmav45 homework (1st Milestone)
+# Birdclef2023- vitmav45 homework (1st milestone)
 
 ### Team: 06_Ahoy
 
@@ -17,7 +17,7 @@ Birds are excellent indicators of biodiversity change since they are highly mobi
 
 For this competition, you'll use your machine-learning skills to identify Eastern African bird species by sound. Specifically, you'll develop computational solutions to process continuous audio data and recognize the species by their calls. The best entries will be able to train reliable classifiers with limited training data. If successful, you'll help advance ongoing efforts to protect avian biodiversity in Africa, including those led by the Kenyan conservation organization NATURAL STATE. 
 
-### Milestone 1: What we have done far
+### 1st milestone: What we have done so far
 
 There are 2 files in the repository: BirdCLEF2023_Save_raw_train_audio.ipynb and BirdCLEF2023_Data_preproccess.ipynb
 
