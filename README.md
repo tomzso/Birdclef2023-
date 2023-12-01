@@ -1,4 +1,4 @@
-# Birdclef2023- vitmav45 homework (1st milestone)
+# Birdclef2023- vitmav45 homework 
 
 ### Team: 06_Ahoy
 
@@ -28,5 +28,20 @@ This file downloads all the raw audio files as .ogg multimedia files. Downloadin
 #### BirdCLEF2023_Data_preproccess.ipynb
 
 The metadata and the audio files can be downloaded from the official competition page: BirdCLEF 2023. This Jupyter Notebook downloads the provided metadata and the preprocessed audio data (generated from BirdCLEF2023_Save_raw_train_audio.ipynb) from one of the team members' Google Drive. This notebook visualizes the first audio file as a spectrogram, the number of audio files for each bird as bar chart, and the first 5 rows of the metadata for the bird audios. The important columns in the metadata include latitude, longitude, and author. The author column contains names in string format, so it has been one-hot encoded during preprocessing. For many audio files where the latitude and longitude are unknown, they have been filled with an average value specific to the bird.
+
+### 2st milestone: What we have done so far
+
+#### BirdCLEF2023_Training_Data.ipynb
+
+The dataset can be downloaded from cell number 2.
+
+Cell number 9 contains the training code. This cell includes the resnet_model.fit function, which is responsible for training the training dataset with the validation dataset.
+
+Cell number 14 contains the evaluation code. This code calculates the accuracy on the test dataset.
+
+
+
+
+
 
 
