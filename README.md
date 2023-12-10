@@ -37,6 +37,9 @@ https://www.kaggle.com/datasets/tomzso/testing
 #### BirdCLEF2023_Training_Data.ipynb
 We used this file for both training and evaluating our work. After the training (model fitting) part, we also created an evaluation section. The evaluation part utilizes the saved weights and then uses the test dataset to get the actual precision.
 
+### Final versions:
+
+
 
 
 
