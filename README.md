@@ -19,9 +19,6 @@ For this competition, you'll use your machine-learning skills to identify Easter
 
 ### 1st milestone: What we have done so far
 
-There are 2 files in the repository: 
-
-BirdCLEF2023_Save_raw_train_audio.ipynb 
 
 
 #### BirdCLEF2023_Save_raw_train_audio.ipynb
