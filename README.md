@@ -19,7 +19,10 @@ For this competition, you'll use your machine-learning skills to identify Easter
 
 ### 1st milestone: What we have done so far
 
-There are 2 files in the repository: BirdCLEF2023_Save_raw_train_audio.ipynb and BirdCLEF2023_Data_preproccess.ipynb
+There are 2 files in the repository: 
+
+BirdCLEF2023_Save_raw_train_audio.ipynb 
+
 
 #### BirdCLEF2023_Save_raw_train_audio.ipynb
 This file downloads all the raw audio files as .ogg multimedia files. Downloading the raw audio requires the kaggle.json file, which contains API credentials. This Jupyter Notebook iterates over all the audio files and creates three TensorFlow datasets (train, validation, test). These three files are large in size, so they are pipelined during the training process. The three datasets are then uploaded to Kaggle. 
