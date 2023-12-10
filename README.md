@@ -27,7 +27,9 @@ This file downloads all the raw audio files as .ogg multimedia files. Downloadin
 Link to the 3 dataset:
 
 https://www.kaggle.com/datasets/tomzso/validation
+
 https://www.kaggle.com/datasets/tomzso/training
+
 https://www.kaggle.com/datasets/tomzso/testing
 
 ### 2st milestone: What we have done so far
