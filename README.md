@@ -22,22 +22,21 @@ For this competition, you'll use your machine-learning skills to identify Easter
 There are 2 files in the repository: BirdCLEF2023_Save_raw_train_audio.ipynb and BirdCLEF2023_Data_preproccess.ipynb
 
 #### BirdCLEF2023_Save_raw_train_audio.ipynb
+This file downloads all the raw audio files as .ogg multimedia files. Downloading the raw audio requires the kaggle.json file, which contains API credentials. This Jupyter Notebook iterates over all the audio files and creates three TensorFlow datasets (train, validation, test). These three files are large in size, so they are pipelined during the training process. The three datasets are then uploaded to Kaggle. 
 
-This file downloads all the raw audio files as .ogg multimedia files. Downloading the raw audio requires the kaggle.json file, which contains API credentials. This Jupyter Notebook iterates over all the audio files and saves the X dataset into 10 different .npy format files. These 10 files are large in size, so they have been split. These split datasets have been uploaded to one of the team member's Google Drive.
+Link to the 3 dataset:
 
-#### BirdCLEF2023_Data_preproccess.ipynb
-
-The metadata and the audio files can be downloaded from the official competition page: BirdCLEF 2023. This Jupyter Notebook downloads the provided metadata and the preprocessed audio data (generated from BirdCLEF2023_Save_raw_train_audio.ipynb) from one of the team members' Google Drive. This notebook visualizes the first audio file as a spectrogram, the number of audio files for each bird as bar chart, and the first 5 rows of the metadata for the bird audios. The important columns in the metadata include latitude, longitude, and author. The author column contains names in string format, so it has been one-hot encoded during preprocessing. For many audio files where the latitude and longitude are unknown, they have been filled with an average value specific to the bird.
+https://www.kaggle.com/datasets/tomzso/validation
+https://www.kaggle.com/datasets/tomzso/training
+https://www.kaggle.com/datasets/tomzso/testing
 
 ### 2st milestone: What we have done so far
 
 #### BirdCLEF2023_Training_Data.ipynb
+We used this file during the training process and the evaulation code can be find here.
 
-The dataset can be downloaded from cell number 2.
 
-Cell number 9 contains the training code. This cell includes the resnet_model.fit function, which is responsible for training the training dataset with the validation dataset.
 
-Cell number 14 contains the evaluation code. This code calculates the accuracy on the test dataset.
 
 
 
